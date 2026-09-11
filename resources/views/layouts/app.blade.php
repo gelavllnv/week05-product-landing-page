@@ -8,7 +8,7 @@
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- Tailwind CDN (no build step) -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -23,8 +23,8 @@
                         rust: '#8B4A2B',
                     },
                     fontFamily: {
-                        display: ['"Playfair Display"', 'serif'],
-                        sans: ['Poppins', 'sans-serif'],
+                        display: ['"Fraunces"', 'serif'],
+                        sans: ['Manrope', 'sans-serif'],
                     },
                     keyframes: {
                         blob: {
