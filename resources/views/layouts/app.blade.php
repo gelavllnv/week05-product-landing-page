@@ -23,7 +23,7 @@
                         rust: '#8B4A2B',
                     },
                     fontFamily: {
-                        display: ['"Fraunces"', 'serif'],
+                        display: ['"Playfair Display"', 'serif'], 
                         sans: ['Manrope', 'sans-serif'],
                     },
                     keyframes: {
