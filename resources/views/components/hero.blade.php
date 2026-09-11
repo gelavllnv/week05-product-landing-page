@@ -5,9 +5,9 @@
         <div class="swiper-wrapper">
             @php
                 $heroImages = [
-                    '1495474472287-4d71bcdd2085',
-                    '1442512595331-e89e73853f31',
-                    '1521017432531-fbd92d768814',
+                    'montehero.png',
+                    'montehero2.png',
+                    'montehero3.png',
                 ];
             @endphp
             @foreach($heroImages as $img)
