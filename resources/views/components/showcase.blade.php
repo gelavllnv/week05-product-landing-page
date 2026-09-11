@@ -9,21 +9,21 @@
 
         <!-- Tabs -->
         <div class="flex justify-center gap-2 mb-12 flex-wrap" data-aos="fade-up">
-            <button @click="tab='menu'" :class="tab==='menu' ? 'bg-caramel text-white' : 'bg-cream/10 text-cream/60'" class="px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300">Our Menu</button>
+            <button @click="tab='menu'" :class="tab==='menu' ? 'bg-caramel text-white' : 'bg-cream/10 text-cream/60'" class="px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300">Our Specialties</button>
             <button @click="tab='ambiance'" :class="tab==='ambiance' ? 'bg-caramel text-white' : 'bg-cream/10 text-cream/60'" class="px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300">The Space</button>
-            <button @click="tab='mobile'" :class="tab==='mobile' ? 'bg-caramel text-white' : 'bg-cream/10 text-cream/60'" class="px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300">Order Preview</button>
+            <button @click="tab='mobile'" :class="tab==='mobile' ? 'bg-caramel text-white' : 'bg-cream/10 text-cream/60'" class="px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300">Mobile Preview</button>
         </div>
 
         <div class="grid lg:grid-cols-2 gap-14 items-center">
             <!-- Visual side -->
             <div class="relative min-h-[420px]" data-aos="fade-right">
                 <div x-show="tab==='menu'" x-transition:enter="transition ease-out duration-500" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100">
-                    <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=80"
+                    <img src="{{ asset('images/our product.jpg') }}"
                          data-fallback="https://placehold.co/900x700/2A1810/E3B27F?text=Our+Menu"
                          class="rounded-3xl shadow-2xl w-full h-[420px] object-cover" alt="Monte Coffee menu bestsellers">
                 </div>
                 <div x-show="tab==='ambiance'" x-cloak x-transition:enter="transition ease-out duration-500" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100">
-                    <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=900&q=80"
+                    <img src="{{ asset('images/montehero3.jpg') }}"
                          data-fallback="https://placehold.co/900x700/2A1810/E3B27F?text=The+Space"
                          class="rounded-3xl shadow-2xl w-full h-[420px] object-cover" alt="Monte Coffee interior ambiance">
                 </div>
@@ -31,7 +31,7 @@
                     <!-- CSS phone mockup -->
                     <div class="w-[240px] h-[420px] bg-espresso-dark rounded-[2.5rem] border-4 border-cream/10 shadow-2xl p-3 relative">
                         <div class="w-20 h-4 bg-espresso-dark rounded-full absolute top-3 left-1/2 -translate-x-1/2 z-10"></div>
-                        <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=500&q=80"
+                        <img src="{{ asset('images/our mobile.png') }}"
                              data-fallback="https://placehold.co/500x800/1B0F08/E3B27F?text=Order+App"
                              class="w-full h-full object-cover rounded-[1.8rem]" alt="Order preview">
                     </div>
@@ -44,8 +44,8 @@
                 <ul class="space-y-5">
                     @foreach([
                         'Single-origin beans roasted in small batches every week',
-                        'Signature Spanish Latte & Caramel Macchiato bestsellers',
-                        'Free, reliable Wi-Fi — perfect for study or work sessions',
+                        'Signature Caramel Macchiato and Cheesecakes',
+                        'Free Wi-Fi — perfect for study or work sessions',
                         'Affordable rice meals & pasta for merienda or lunch',
                     ] as $point)
                         <li class="flex items-start gap-4">

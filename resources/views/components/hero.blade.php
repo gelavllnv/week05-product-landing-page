@@ -19,7 +19,9 @@
             @endforeach
         </div>
     </div>
-    <div class="absolute inset-0 bg-gradient-to-b from-espresso-dark/90 via-espresso/85 to-espresso"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-espresso-dark/95 via-espresso-dark/90 to-espresso"></div>
+    <div class="absolute inset-0 bg-espresso-dark/40"></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-espresso-dark/70 via-transparent to-espresso-dark/50"></div>
 
     <!-- Decorative blobs -->
     <div class="absolute top-20 -left-20 w-72 h-72 bg-caramel/20 rounded-full blur-3xl animate-blob"></div>
@@ -28,7 +30,7 @@
     <div class="relative z-10 max-w-7xl mx-auto px-6 pt-32 pb-20 grid lg:grid-cols-2 gap-12 items-center">
         <!-- Left: copy -->
         <div>
-            <span data-aos="fade-down" class="inline-flex items-center gap-2 bg-cream/10 border border-cream/20 text-caramel-light text-xs font-semibold tracking-widest uppercase px-4 py-2 rounded-full backdrop-blur-sm">
+            <span data-aos="fade-down" class="inline-flex items-center gap-2 bg-espresso-dark/60 border border-cream/20 text-caramel-light text-xs font-semibold tracking-widest uppercase px-4 py-2 rounded-full backdrop-blur-md shadow-lg">
                 ⚲ Sitio 6, Brgy. Patimbao, Santa Cruz, Laguna
             </span>
 
@@ -37,7 +39,7 @@
                 <span class="text-gradient">Brewed with Passion.</span>
             </h1>
 
-            <p data-aos="fade-up" data-aos-delay="200" class="text-cream/70 text-base md:text-lg mt-6 max-w-lg">
+            <p data-aos="fade-up" data-aos-delay="200" class="text-cream/90 text-shadow-strong text-base md:text-lg mt-6 max-w-lg">
                 Monte Coffee is your neighborhood café — freshly roasted beans, handcrafted drinks, and a cozy corner in Patimbao to slow down, work, or catch up with friends.
             </p>
 

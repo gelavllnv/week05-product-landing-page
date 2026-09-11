@@ -73,10 +73,14 @@
         ::-webkit-scrollbar-track { background: #FBF3E7; }
         ::-webkit-scrollbar-thumb { background: #C9884A; border-radius: 999px; }
         .text-gradient {
-            background: linear-gradient(90deg, #E3B27F 0%, #C9884A 50%, #8B4A2B 100%);
+            background: linear-gradient(90deg, #F3D5A8 0%, #E3B27F 100%);
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
+            filter: drop-shadow(0 2px 10px rgba(0,0,0,0.55));
+        }
+        .text-shadow-strong {
+            text-shadow: 0 2px 16px rgba(0,0,0,0.6), 0 1px 3px rgba(0,0,0,0.8);
         }
         .card-hover { transition: all .45s cubic-bezier(.2,.8,.2,1); }
         .card-hover:hover { transform: translateY(-10px); }
