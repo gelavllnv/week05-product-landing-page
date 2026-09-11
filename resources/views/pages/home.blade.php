@@ -67,7 +67,7 @@
 <section id="pricing" class="py-24 bg-cream">
     <div class="max-w-7xl mx-auto px-6">
         <x-section-heading eyebrow="Coffee Club" title="Plans Made for Every Coffee Lover"
-            subtitle="Simple, transparent pricing — whether you're grabbing a quick cup or stocking up for the whole office." />
+            subtitle="Simple, transparent pricing — whether you're grabbing a quick cup or for the whole office." />
 
         <div class="grid lg:grid-cols-3 gap-8 lg:gap-6 max-w-6xl mx-auto">
             <div data-aos="fade-up" data-aos-delay="0">
@@ -77,12 +77,12 @@
             </div>
             <div data-aos="fade-up" data-aos-delay="150">
                 <x-pricing-card name="Coffee Lover" price="₱499" period="week" :highlighted="true"
-                    :features="['7 drinks of your choice', '1 free pastry per week', 'Priority seating', '10% off rice meals', 'Free Wi-Fi voucher']"
+                    :features="['7 drinks of your choice', '1 free pastry per week', '10% off rice meals']"
                     cta="Choose Plan" />
             </div>
             <div data-aos="fade-up" data-aos-delay="300">
                 <x-pricing-card name="Office Bundle" price="₱2,499" period="month"
-                    :features="['Up to 5 people, unlimited drinks', 'Reserved table for meetings', 'Free delivery for bulk orders', 'Dedicated account support']"
+                    :features="['Up to 5 people, unlimited drinks', 'Reserved table for meetings', 'Free delivery for bulk orders']"
                     cta="Contact Sales" />
             </div>
         </div>
