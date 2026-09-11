@@ -12,9 +12,9 @@
             @endphp
             @foreach($heroImages as $img)
                 <div class="swiper-slide">
-                    <img src="https://images.unsplash.com/photo-{{ $img }}?auto=format&fit=crop&w=1600&q=80"
-                         data-fallback="https://placehold.co/1600x900/1B0F08/8B4A2B?text=Monte+Coffee"
-                         class="w-full h-full object-cover" alt="Monte Coffee ambiance">
+                    <img src="{{ asset('image/' . $img) }}"
+                    class="w-full h-full object-cover"
+                    alt="Monte Coffee ambiance">
                 </div>
             @endforeach
         </div>
@@ -29,7 +29,7 @@
         <!-- Left: copy -->
         <div>
             <span data-aos="fade-down" class="inline-flex items-center gap-2 bg-cream/10 border border-cream/20 text-caramel-light text-xs font-semibold tracking-widest uppercase px-4 py-2 rounded-full backdrop-blur-sm">
-                📍 Brgy. Patimbao, Santa Cruz, Laguna
+                ⚲ Sitio 6, Brgy. Patimbao, Santa Cruz, Laguna
             </span>
 
             <h1 data-aos="fade-up" data-aos-delay="100" class="font-display font-extrabold text-4xl sm:text-5xl md:text-6xl leading-[1.1] text-cream mt-6">
@@ -52,11 +52,11 @@
             <!-- Stats -->
             <div data-aos="fade-up" data-aos-delay="400" class="flex flex-wrap gap-8 mt-12 pt-8 border-t border-cream/10">
                 <div>
-                    <p class="font-display font-bold text-3xl text-caramel-light">500+</p>
+                    <p class="font-display font-bold text-3xl text-caramel-light">150+</p>
                     <p class="text-cream/50 text-xs uppercase tracking-wider mt-1">Cups Served Daily</p>
                 </div>
                 <div>
-                    <p class="font-display font-bold text-3xl text-caramel-light">4.8<span class="text-lg">★</span></p>
+                    <p class="font-display font-bold text-3xl text-caramel-light">4.0<span class="text-lg">★</span></p>
                     <p class="text-cream/50 text-xs uppercase tracking-wider mt-1">Customer Rating</p>
                 </div>
                 <div>
@@ -69,11 +69,11 @@
         <!-- Right: floating cup visual -->
         <div class="relative hidden lg:flex justify-center" data-aos="zoom-in" data-aos-delay="200">
             <div class="relative animate-float">
-                <img src="https://images.unsplash.com/photo-1524350876685-274059332603?auto=format&fit=crop&w=900&q=80"
-                     data-fallback="https://placehold.co/700x700/2A1810/E3B27F?text=Monte+Coffee"
-                     class="w-[420px] h-[420px] object-cover rounded-[3rem] shadow-2xl ring-8 ring-cream/5" alt="Monte Coffee latte art">
+                <img src="{{ asset('image/floatingvisual.jpg') }}"
+                    class="w-[420px] h-[420px] object-cover rounded-[3rem] shadow-2xl ring-8 ring-cream/5"
+                    alt="Monte Coffee">
                 <div class="absolute -bottom-6 -left-8 bg-cream text-espresso px-5 py-4 rounded-2xl shadow-xl flex items-center gap-3">
-                    <span class="text-2xl">☕</span>
+                    <span class="text-2xl">☕︎੭</span>
                     <div class="leading-tight">
                         <p class="font-bold text-sm">Freshly Brewed</p>
                         <p class="text-xs text-espresso/60">Every single cup</p>
