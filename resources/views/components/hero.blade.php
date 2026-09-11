@@ -19,7 +19,7 @@
             @endforeach
         </div>
     </div>
-    <div class="absolute inset-0 bg-gradient-to-b from-espresso-dark/30 via-espresso/20 to-espresso/70"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-espresso-dark/90 via-espresso/85 to-espresso"></div>
 
     <!-- Decorative blobs -->
     <div class="absolute top-20 -left-20 w-72 h-72 bg-caramel/20 rounded-full blur-3xl animate-blob"></div>
