@@ -6,7 +6,7 @@
                      class="w-10 h-10 rounded-full object-cover ring-2 ring-caramel/40" alt="Monte Coffee">
                 <span class="font-display font-bold text-lg text-cream">Monte Coffee</span>
             </a>
-            <p class="text-sm leading-relaxed">Your neighborhood café in Patimbao — crafted coffee, brewed with passion, served with heart.</p>
+            <p class="text-sm leading-relaxed">Your neighborhood café in Santa Cruz, Laguna — crafted coffee, brewed with passion, served with heart.</p>
             <div class="flex gap-3 mt-6">
                 <a href="https://www.facebook.com/montecoffee.official" target="_blank" class="w-10 h-10 rounded-full bg-cream/5 hover:bg-caramel flex items-center justify-center transition-colors duration-300">
                     <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12a10 10 0 10-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0022 12z"/></svg>
@@ -35,21 +35,20 @@
             <h4 class="font-display font-bold text-cream mb-4">Contact</h4>
             <ul class="space-y-3 text-sm">
                 <li class="flex gap-2"><span>📍</span> Sitio 6, Brgy. Patimbao, National Highway, Sta. Cruz, Laguna</li>
-                <li class="flex gap-2"><span>📞</span> 0917 000 0000</li>
-                <li class="flex gap-2"><span>✉️</span> hello@montecoffee.ph</li>
+                <li class="flex gap-2"><span>📞</span> 0951 311 2260</li>
             </ul>
         </div>
 
         <div>
             <h4 class="font-display font-bold text-cream mb-4">Opening Hours</h4>
             <ul class="space-y-2 text-sm">
-                <li class="flex justify-between"><span>Mon – Fri</span><span>7AM – 9PM</span></li>
-                <li class="flex justify-between"><span>Sat – Sun</span><span>7AM – 10PM</span></li>
+                <li class="flex justify-between"><span>Mon – Fri</span><span>7 AM – 12 AM</span></li>
+                <li class="flex justify-between"><span>Sat – Sun</span><span>7 AM – 10 PM</span></li>
             </ul>
         </div>
     </div>
 
     <div class="max-w-7xl mx-auto px-6 mt-14 pt-8 border-t border-cream/10 text-center text-xs text-cream/40">
-        © {{ date('Y') }} Monte Coffee. All rights reserved. Built with ☕ in Sta. Cruz, Laguna.
+        © {{ date('Y') }} Monte Coffee. All rights reserved.
     </div>
 </footer>
