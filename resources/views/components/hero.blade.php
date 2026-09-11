@@ -12,7 +12,7 @@
             @endphp
             @foreach($heroImages as $img)
                 <div class="swiper-slide">
-                    <img src="{{ asset('image/' . $img) }}"
+                    <img src="{{ asset('images/' . $img) }}"
                     class="w-full h-full object-cover"
                     alt="Monte Coffee ambiance">
                 </div>
@@ -69,7 +69,7 @@
         <!-- Right: floating cup visual -->
         <div class="relative hidden lg:flex justify-center" data-aos="zoom-in" data-aos-delay="200">
             <div class="relative animate-float">
-                <img src="{{ asset('image/floating visual.jpg') }}"
+                <img src="{{ asset('images/floating visual.jpg') }}"
                     class="w-[420px] h-[420px] object-cover rounded-[3rem] shadow-2xl ring-8 ring-cream/5"
                     alt="Monte Coffee">
                 <div class="absolute -bottom-6 -left-8 bg-cream text-espresso px-5 py-4 rounded-2xl shadow-xl flex items-center gap-3">
