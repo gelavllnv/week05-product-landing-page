@@ -7,22 +7,58 @@
 <x-hero />
 
 <!-- FEATURES -->
-<section id="features" class="py-24 bg-cream">
-    <div class="max-w-7xl mx-auto px-6">
-        <x-section-heading eyebrow="Why Monte Coffee" title="More Than Just a Cup of Coffee"
-            subtitle="Every visit is designed around great coffee, good company, and a space that feels like home." />
+<!-- BESTSELLERS -->
+<section id="features" class="py-24 bg-cream relative overflow-hidden">
+    <div class="absolute top-0 right-0 w-72 h-72 bg-caramel/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
 
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <x-feature-card icon="🌱" title="Freshly Roasted Beans" description="Small-batch roasted weekly for the freshest, most flavorful cup every single time." data-aos="fade-up" data-aos-delay="0" />
-            <x-feature-card icon="🥛" title="Signature Milk-Based Drinks" description="From Spanish Latte to Caramel Macchiato — crafted by baristas who care about every pour." data-aos="fade-up" data-aos-delay="100" />
-            <x-feature-card icon="🛋️" title="Cozy Hangout Space" description="A warm, relaxed interior perfect for catching up, studying, or working solo." data-aos="fade-up" data-aos-delay="200" />
-            <x-feature-card icon="📶" title="Free Wi-Fi & Study Area" description="Fast, reliable internet and comfy seating for students, freelancers, and remote work." data-aos="fade-up" data-aos-delay="0" />
-            <x-feature-card icon="🍝" title="Affordable Meals & Snacks" description="Rice meals, pasta, and pastries that pair perfectly with your favorite brew." data-aos="fade-up" data-aos-delay="100" />
-            <x-feature-card icon="😊" title="Friendly, Fast Service" description="A local team that knows your order and treats every customer like family." data-aos="fade-up" data-aos-delay="200" />
+    <div class="max-w-7xl mx-auto px-6 relative">
+        <div class="max-w-xl mb-14" data-aos="fade-up">
+            <span class="inline-flex items-center gap-2 text-xs md:text-sm font-semibold tracking-[0.2em] uppercase px-4 py-1.5 rounded-full border border-caramel/30 text-caramel-dark bg-caramel/10">
+                <span class="w-1.5 h-1.5 rounded-full bg-caramel"></span>
+                From Our Counter
+            </span>
+            <h2 class="font-display font-bold text-3xl sm:text-4xl md:text-5xl mt-4 leading-tight text-espresso">
+                Our Features
+            </h2>
+            <p class="mt-4 text-base md:text-lg text-espresso/60">
+                Our six drinks and dessert you would come back for.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <x-feature-card image="{{ asset('images/red velvet latte.png') }}" badge="Drink" accent="rust"
+                name="Iced Red Velvet Latte"
+                description="A smooth blend of red velvet and fresh milk over ice — rich, creamy, and a little indulgent."
+                data-aos="fade-up" data-aos-delay="0" />
+
+            <x-feature-card image="{{ asset('images/blueberry cheesecake.png') }}" badge="Cheesecake" accent="espresso"
+                name="Blueberry Cheesecake"
+                description="Silky baked cheesecake topped with a generous layer of real blueberry compote."
+                data-aos="fade-up" data-aos-delay="100" />
+
+            <x-feature-card image="{{ asset('images/white chocolate dream latte.png') }}" badge="Drink" accent="caramel"
+                name="White Chocolate Dream Latte"
+                description="Espresso meets white chocolate and steamed milk for a sweet, dessert-like sip."
+                data-aos="fade-up" data-aos-delay="200" />
+
+            <x-feature-card image="{{ asset('images/dark choco latte.png') }}" badge="Drink" accent="espresso"
+                name="Dark Choco Latte"
+                description="Bold espresso balanced with rich dark chocolate — deep, smooth, and never too sweet."
+                data-aos="fade-up" data-aos-delay="0" />
+
+            <x-feature-card image="{{ asset('images/caramel macchiato.png') }}" badge="Drink" accent="caramel"
+                name="Caramel Macchiato"
+                description="Espresso layered with milk and caramel drizzle for that classic buttery-sweet finish."
+                data-aos="fade-up" data-aos-delay="100" />
+
+            <x-feature-card image="{{ asset('images/dark choco cheesecake.png') }}" badge="Cheesecake" accent="rust"
+                name="Dark Choco Cheesecake"
+                description="Creamy cheesecake swirled with dark chocolate for a decadent, fudgy bite."
+                data-aos="fade-up" data-aos-delay="200" />
         </div>
     </div>
 </section>
-
 <x-showcase />
 
 <x-gallery />
