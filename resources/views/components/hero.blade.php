@@ -19,7 +19,7 @@
             @endforeach
         </div>
     </div>
-    <div class="absolute inset-0 bg-gradient-to-b from-espresso-dark/90 via-espresso/85 to-espresso"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-espresso-dark/30 via-espresso/20 to-espresso/70"></div>
 
     <!-- Decorative blobs -->
     <div class="absolute top-20 -left-20 w-72 h-72 bg-caramel/20 rounded-full blur-3xl animate-blob"></div>
@@ -69,7 +69,7 @@
         <!-- Right: floating cup visual -->
         <div class="relative hidden lg:flex justify-center" data-aos="zoom-in" data-aos-delay="200">
             <div class="relative animate-float">
-                <img src="{{ asset('image/floatingvisual.jpg') }}"
+                <img src="{{ asset('image/floating visual.jpg') }}"
                     class="w-[420px] h-[420px] object-cover rounded-[3rem] shadow-2xl ring-8 ring-cream/5"
                     alt="Monte Coffee">
                 <div class="absolute -bottom-6 -left-8 bg-cream text-espresso px-5 py-4 rounded-2xl shadow-xl flex items-center gap-3">
