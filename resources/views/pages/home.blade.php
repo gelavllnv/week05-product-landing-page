@@ -92,8 +92,8 @@
 <!-- TESTIMONIALS -->
 <section id="testimonials" class="py-24 bg-espresso relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-6">
-        <x-section-heading eyebrow="Kind Words" title="Loved by Our Regulars" light
-            subtitle="Don't just take our word for it — here's what the Monte Coffee community has to say." />
+        <x-section-heading eyebrow="Reviews" title="Loved by Our Regulars" light
+            subtitle="Here's what the Monte Coffee community has to say." />
     </div>
 
     <div class="max-w-6xl mx-auto px-6" data-aos="fade-up">
@@ -108,8 +108,8 @@
                         review="Great Wi-Fi, comfy seats, and the coffee never disappoints. Monte Coffee is basically my second office now." />
                 </div>
                 <div class="swiper-slide h-auto py-2">
-                    <x-testimonial-card name="Jasmine Cruz" position="College Student" rating="4"
-                        review="Affordable and cozy! Perfect place to hang out with friends after class. Sulit na sulit ang bundle promo nila." />
+                    <x-testimonial-card name="John David Yu" position="Customer" rating="4"
+                        review="The food and the coffee was great though I haven't tried their non-coffee drinks. The ambiance is good as well. The crews are polite too! One downside would be that their food takes a little long to come out but all in all, the place is great." />
                 </div>
             </div>
             <div class="swiper-pagination !bottom-0"></div>
